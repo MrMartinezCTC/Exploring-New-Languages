@@ -39,7 +39,8 @@
 				"ms-python.vscode-pylance",
 				"ms-python.python",
 				"vscjava.vscode-java-test",
-				"mwpb.java-prettier-formatter"
+				"mwpb.java-prettier-formatter",
+				"georgewfraser.vscode-javac"
 			]
 		}
 	},
