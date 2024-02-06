@@ -77,8 +77,20 @@
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
-		"ghcr.io/devcontainers/features/java:1": {},
-		"ghcr.io/devcontainers/features/python:1": {},
-		"ghcr.io/devcontainers/features/go:1": {}
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "latest",
+			"jdkDistro": "ms",
+			"gradleVersion": "latest",
+			"mavenVersion": "latest",
+			"antVersion": "latest",
+			"groovyVersion": "latest"
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installTools": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/go:1": {
+			"version": "none"
+		}
 	}
 }
